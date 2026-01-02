@@ -1,0 +1,46 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+bin/
+dist/
+
+# Binaries
+fuzzer
+simple_target
+vulnerable_target
+instrumented_target
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Fuzzer output
+inputs/
+outputs/
+crashes/
+corpus/
+hangs/
+stats.txt
+
+# Test artifacts
+test_inputs/
+test_outputs/
+.gtest_filter
+
+# Coverage
+*.gcda
+*.gcno
+coverage.info
+htmlcov/
+
+# Temporary
+tmp/
+temp/
+*.tmp
